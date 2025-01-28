@@ -1,0 +1,56 @@
+:root{
+    --heading-background-color:#BCBBBD;
+    --heading-fonts:merriweather, san-serrif;
+    --heading-text-color:#535C5C;
+    --color:#EBEBEB;
+    
+}
+h1{
+    background-color: var(--heading-background-color);
+    color:var(--color) ;
+    position: absolute;
+    
+}
+
+
+h2{
+    color: var(--heading-text-color);
+    font-family: var(--heading-fonts);
+}
+p{
+  padding: auto;   
+    
+}
+a{
+    text-decoration: none;
+
+}
+.hero{
+    position: relative;
+}
+.hero img{
+    float: right;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero article{
+    position: absolute;
+    background-color: var(--heading-background-color);
+    padding: 1rem;
+    margin-top: 25px;
+}
+
+.hero article img{
+    width: 200px;
+    height: 200px;
+    float: right;
+    
+}
+section img{
+    width: 250px;
+}
+a img{
+    width: 25px;
+}
+
