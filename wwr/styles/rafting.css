@@ -135,3 +135,79 @@ footer{
     display: flex;
     justify-content: end;
 }
+.sociallinks{
+    display: flex;
+}
+form{
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid #333;
+    display: grid;
+}
+label{
+    text-align: center;
+    padding-right: 1rem;
+    display: flex;
+    color: var(--heading-text-color);
+}
+button{
+    width: 100px;
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+button:hover{
+    background: darkgreen;
+}
+form-item{
+    display: grid;
+    align-items: center;
+
+}
+.column{
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+    align-items: center;
+}
+textarea{width:500px ;}
+h5, h6{
+    text-align: center;
+    padding-top: 1px;
+    color: var(--heading-text-color);
+}
+h3{
+    color: var(--heading-text-color);
+}
+.team-images{
+
+    display: flex;
+    justify-content: space-around;
+}
+.team-images img{
+    width: 250px;
+    height: 350px;
+    border: 1px solid #333;
+}
+.map{
+    padding-top: 20px;
+    display: grid;
+    width: 100%;
+    align-items: center;
+}
+.get-in-touch{
+    background-color: var(--heading-background-color);
+    border: 1px solid var(--heading-background-color);
+    text-align: center;
+    width: 600px;
+    height: auto;
+    padding-bottom: 20px;
+}
+input[type="radio"]{
+    display: flex;
+    align-items: right;
+}
