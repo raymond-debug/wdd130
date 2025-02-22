@@ -211,3 +211,134 @@ input[type="radio"]{
     display: flex;
     align-items: right;
 }
+.newsletter {
+    background-color: #f7f7f7;
+    padding: 2em;
+    text-align: center;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter label {
+    margin-bottom: 10px;
+}
+
+.newsletter input[type="text"], .newsletter input[type="email"] {
+    width: 50%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.newsletter input[type="submit"] {
+    width: 20%;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta {
+    background-color: #333;
+    color: #fff;
+    padding: 2em;
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    max-width: 1200px;
+    margin: 40px auto;
+  }
+  
+  .grid-item {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .grid-item h3 {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .grid-item p {
+    margin-bottom: 20px;
+  }
+  .trip-table {
+    max-width: 800px;
+    margin: 40px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trip-table th, .trip-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.trip-table th {
+    background-color: #f0f0f0;
+}
+.trip-table td {
+    vertical-align: middle;
+}
+
+.trip-table .trip-name {
+    font-weight: bold;
+}
+
+.trip-descriptions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.trip-description {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.trip-description img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.trip-description h3 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.trip-description p {
+    margin-bottom: 20px;
+}
+h1{
+    background-color: #333;
+    text-align: center;
+}
