@@ -238,7 +238,7 @@ input[type="radio"]{
 .newsletter input[type="submit"] {
     width: 20%;
     height: 40px;
-    background-color: #333;
+    background-color: navy;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -246,8 +246,8 @@ input[type="radio"]{
 }
 
 .cta {
-    background-color: #333;
-    color: #fff;
+    background-color: var(--heading-background-color);
+    color: var(--heading-background-color);
     padding: 2em;
     text-align: center;
 }
@@ -339,6 +339,6 @@ input[type="radio"]{
     margin-bottom: 20px;
 }
 h1{
-    background-color: #333;
+    background-color: var(--heading-background-color);
     text-align: center;
 }
